@@ -1,0 +1,33 @@
+$mainC: red;
+$secC: black;
+
+.counterContainer {
+  width: 100%;
+  padding-top: 20vh;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.counter {
+  background-color: $secC;
+  color: $mainC;
+  font-size: 1.5rem;
+  width: 25vw;
+  margin: 1vh;
+  text-align: center;
+  padding: 10px;
+  box-shadow: 5px 5px 5px $mainC;
+  transition: all 0.5s ease-out;
+
+  &:hover {
+    box-shadow: -5px -5px 5px $secC;
+    background-color: $mainC;
+    color: $secC;
+    text-transform: uppercase;
+  }
+}
+
+.setCounterBtn {
+  @extend .counter;
+}
