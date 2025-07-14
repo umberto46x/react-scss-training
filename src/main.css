@@ -7,7 +7,7 @@
   align-items: center;
 }
 
-.counter, .setCounterBtn {
+.counter, .setCounterBtn, .setCounterAmount {
   background-color: black;
   color: red;
   font-size: 1.5rem;
@@ -18,7 +18,7 @@
   box-shadow: 5px 5px 5px red;
   transition: all 0.5s ease-out;
 }
-.counter:hover, .setCounterBtn:hover {
+.counter:hover, .setCounterBtn:hover, .setCounterAmount:hover {
   box-shadow: -5px -5px 5px black;
   background-color: red;
   color: black;
