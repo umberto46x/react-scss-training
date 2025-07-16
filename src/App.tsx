@@ -2,7 +2,8 @@
 import { Todos } from "./components/Todos";
 import { Users } from "./components/Users"; */
 
-import { ShoppingList } from "./components/ShoppingList/ShoppingList";
+import { ScssTraining } from "./components/ScssTraining/ScssTraining";
+/* import { ShoppingList } from "./components/ShoppingList/ShoppingList"; */
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
       {/* <Counter></Counter>
       <Todos></Todos>
       <Users></Users> */}
-      <ShoppingList></ShoppingList>
+      {/*  <ShoppingList></ShoppingList> */}
+      <ScssTraining></ScssTraining>
     </>
   );
 }

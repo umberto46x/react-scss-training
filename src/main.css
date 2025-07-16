@@ -45,4 +45,86 @@ h1 {
 .shoppingList__container {
   width: 80%;
   margin: auto;
+}
+
+.ex1_header {
+  margin-bottom: 50vh;
+}
+.ex1_header h1 {
+  text-align: center;
+  font-size: 2rem;
+}
+.ex1_header nav {
+  text-align: center;
+}
+.ex1_header nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: inline-block;
+  background-color: #ffc107;
+  width: 80%;
+}
+.ex1_header nav ul li {
+  display: inline-block;
+  margin: 0px 2rem 0px 2rem;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+.ex1_header nav ul li:hover a {
+  color: #4caf50;
+}
+.ex1_header nav ul a {
+  text-decoration: none;
+}
+.ex1_header nav ul a:link {
+  color: #333333;
+}
+
+body {
+  background-color: #f5f5f5;
+  font-family: "Roboto", sans-serif;
+  color: #333333;
+}
+
+.ex1_main {
+  margin-bottom: 50vh;
+}
+.ex1_main h2,
+.ex1_main p {
+  text-align: center;
+}
+.ex1_main h2 {
+  font-size: 1.5rem;
+}
+.ex1_main p {
+  font-size: 1.25rem;
+}
+
+.ex1_footer {
+  background-color: #ffc107;
+  width: 80%;
+  padding: 2rem;
+  margin: auto;
+}
+.ex1_footer h2 {
+  text-align: center;
+}
+.ex1_footer ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+.ex1_footer ul li {
+  display: inline-block;
+  margin: 0px 2rem 0px 2rem;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+.ex1_footer p {
+  text-align: center;
 }/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,29 @@
+.ex1_footer {
+  background-color: #ffc107;
+  width: 80%;
+  padding: 2rem;
+  margin: auto;
+  h2 {
+    text-align: center;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+
+    li {
+      display: inline-block;
+      margin: 0px 2rem 0px 2rem;
+      font-size: 1.5rem;
+      padding: 1rem;
+    }
+  }
+
+  p {
+    text-align: center;
+  }
+}
