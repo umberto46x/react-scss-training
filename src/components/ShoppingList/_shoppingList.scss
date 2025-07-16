@@ -1,0 +1,30 @@
+@use "sass:map";
+$mainColor: #f9c74f;
+$secondaryColor: #f8961e;
+$accentColor: #f94144;
+$font-sizes:("largest":2rem,"larger":1.5rem,"normal":1rem,"smaller":0.5rem);
+
+
+
+
+h1{
+    text-align: center;
+    font-size: map-get($map: $font-sizes, $key:"largest");
+}
+
+
+
+
+.shoppingList_list{
+    h2{
+        text-align: center;
+        color: $accentColor;
+        font-size: 1rem;
+    }
+}
+
+.shoppingList__container{
+    width: 80%;
+
+    margin:auto
+}

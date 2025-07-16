@@ -25,6 +25,24 @@
   text-transform: uppercase;
 }
 
-body {
-  background-color: #c2c2c2;
+.todos_title {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 5vh;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.shoppingList_list h2 {
+  text-align: center;
+  color: #f94144;
+  font-size: 1rem;
+}
+
+.shoppingList__container {
+  width: 80%;
+  margin: auto;
 }/*# sourceMappingURL=main.css.map */

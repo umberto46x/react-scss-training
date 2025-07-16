@@ -4,6 +4,7 @@ import { todosReducer } from "../slices/todosSlice";
 import { filterReducer } from "../slices/filterSlice";
 import { usersReducer } from "../slices/usersSlice";
 import { useDispatch, useSelector } from "react-redux";
+import { shoppingItemsReducer } from "../slices/shoppingItemsSlice";
 
 
 
@@ -13,7 +14,8 @@ export const store = configureStore({
         counter:counterReducer,
         todos:todosReducer,
         filter:filterReducer,
-        users:usersReducer
+        users:usersReducer,
+        shoppingItems:shoppingItemsReducer
     }
 })
 
