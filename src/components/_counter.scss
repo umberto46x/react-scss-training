@@ -28,9 +28,7 @@ $secC: black;
   }
 }
 
-.setCounterBtn,.setCounterAmount  {
+.setCounterBtn,
+.setCounterAmount {
   @extend .counter;
 }
-
-
-

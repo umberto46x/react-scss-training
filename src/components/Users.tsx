@@ -14,14 +14,17 @@ export const Users = () => {
   }, [loading, dispatch]);
   return (
     <>
-      {loading === "pending" && <p>loading .....</p>}{" "}
-      {loading === "failed" && <p>Error: {error}</p>}
-      {loading === "succeeded" &&
-        entities.map((user) => (
-          <li key={user.id}>
-            {user.name} - {user.username} - {user.email}
-          </li>
-        ))}
+      <h1 className="users_title">Users</h1>
+      <div className="users_container">
+        {loading === "pending" && <p>loading .....</p>}{" "}
+        {loading === "failed" && <p>Error: {error}</p>}
+        {loading === "succeeded" &&
+          entities.map((user) => (
+            <li key={user.id}>
+              {user.name} - {user.username} - {user.email}
+            </li>
+          ))}
+      </div>
     </>
   );
 };

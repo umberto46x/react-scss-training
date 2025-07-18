@@ -1,18 +1,18 @@
-/* import { Counter } from "./components/Counter";
+import { Counter } from "./components/Counter";
 import { Todos } from "./components/Todos";
-import { Users } from "./components/Users"; */
+import { Users } from "./components/Users";
 
-import { ScssTraining } from "./components/ScssTraining/ScssTraining";
-/* import { ShoppingList } from "./components/ShoppingList/ShoppingList"; */
+/* import { ScssTraining } from "./components/ScssTraining/ScssTraining";
+ */ import { ShoppingList } from "./components/ShoppingList/ShoppingList";
 
 function App() {
   return (
     <>
-      {/* <Counter></Counter>
+      <Counter></Counter>
       <Todos></Todos>
-      <Users></Users> */}
-      {/*  <ShoppingList></ShoppingList> */}
-      <ScssTraining></ScssTraining>
+      <Users></Users>
+      <ShoppingList></ShoppingList>
+      {/* <ScssTraining></ScssTraining> */}
     </>
   );
 }

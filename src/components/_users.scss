@@ -1,0 +1,29 @@
+.users_title {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.users_container {
+  width: 80%;
+  height: 50vh;
+  margin: auto;
+  margin-bottom: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  li {
+    list-style-type: none;
+    border: 1px solid black;
+    border-radius: 16px;
+    padding: 1rem;
+    margin: 0.5rem 0 0.5rem 0;
+    transition: all 0.25s ease-in;
+
+    &:hover {
+      background-color: black;
+      color: white;
+    }
+  }
+}

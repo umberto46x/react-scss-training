@@ -25,7 +25,7 @@ export const ShoppingList = () => {
 
   // gestione upload
   useEffect(() => {
-    if (uploadingStatus === "idle" && items.length > 0) {
+    if (uploadingStatus === "idle" || items.length > 0) {
       dispatch(setItemsToLS());
     }
   }, [uploadingStatus, items]);
